@@ -18,6 +18,11 @@
         display: none;
     }
 
+    .navbar ul>li a:hover {
+        text-decoration: underline;
+        transition-duration: .5s;
+    }
+
     .navbar-toggler {
         margin: 0;
         background-color: white;
@@ -114,7 +119,7 @@
     #impressoes .d-flex {
         display: flex;
         justify-content: space-between;
-    }  
+    }
 
     #produtosEletronicos {
         padding-top: 100px;
