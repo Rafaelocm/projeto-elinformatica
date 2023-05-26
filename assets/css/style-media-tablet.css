@@ -1,0 +1,186 @@
+@media screen and (max-width: 881px) {
+    #cabecalho {
+        max-width: 1040px;
+        font-family: var(--fontPoppins);
+        padding-top: 40px;
+        padding-bottom: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #cabecalho>h1 {
+        padding-top: 15px;
+        font-size: 1.8em;
+        color: white;
+    }
+
+    .navbar-Ul>li>a {
+        display: none;
+    }
+
+    .navbar-toggler {
+        margin: 0;
+        background-color: white;
+        display: block;
+    }
+
+    .navbar-nav>.nav-item>.nav-link {
+        padding-top: 15px;
+        color: black;
+    }
+
+    main {
+        padding-left: 50px;
+        padding-right: 50px;
+        max-width: 840px;
+        min-width: 320px;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+
+    #sobre {
+        width: 100%;
+        margin: auto;
+    }
+
+    #sobre p {
+        padding-top: 80px;
+        line-height: 1.3em;
+        text-align: justify;
+        font-size: 3em;
+        color: white;
+        font-family: var(--fontPassionOnveBold);
+    }
+
+    #revelacaoFoto {
+        padding-top: 100px;
+        text-align: center;
+        width: 100%;
+    }
+
+    #revelacaoFoto .paragrafo h2 {
+        font-family: var(--fontPoppins);
+        font-weight: bolder;
+        color: var(--corDestaqueLetra);
+        width: 100%;
+        font-size: 2.4em;
+    }
+
+    #revelacaoFoto .paragrafo p {
+        font-family: var(--fontPoppins);
+        line-height: 2em;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+        color: white;
+        text-align: justify;
+        font-size: 1.3em;
+    }
+
+    #revelacaoFoto picture img {
+        padding-top: 30px 30px 30px 30px;
+        border-radius: 15px;
+        width: 450px;
+    }
+
+    #revelacaoFoto .d-flex {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #impressoes {
+        padding-top: 70px;
+        text-align: center;
+        width: 100%;
+    }
+
+    #impressoes .paragrafo h2 {
+        font-family: var(--fontPoppins);
+        font-weight: bolder;
+        color: var(--corDestaqueLetra);
+        width: 100%;
+        font-size: 2.4em;
+    }
+
+    #impressoes .paragrafo p {
+        font-family: var(--fontPoppins);
+        line-height: 2em;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+        color: white;
+        text-align: justify;
+        font-size: 1.3em;
+    }
+
+    #impressoes picture img {
+        padding-top: 30px 30px 30px 30px;
+        border-radius: 15px;
+        width: 450px;
+    }
+
+    #impressoes .d-flex {
+        align-items: center;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #produtosEletronicos {
+        padding-top: 70px;
+        text-align: center;
+        width: 100%;
+    }
+
+    #produtosEletronicos .paragrafo h2 {
+        font-family: var(--fontPoppins);
+        font-weight: bolder;
+        color: var(--corDestaqueLetra);
+        width: 100%;
+        font-size: 2.4em;
+    }
+
+    #produtosEletronicos .paragrafo p {
+        font-family: var(--fontPoppins);
+        line-height: 2em;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+        color: white;
+        text-align: justify;
+        font-size: 1.3em;
+    }
+
+    #produtosEletronicos picture img {
+        padding-top: 30px 30px 30px 30px;
+        border-radius: 15px;
+        width: 450px;
+    }
+
+    #produtosEletronicos .d-flex {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    footer h2 {
+        color: var(--corDestaqueLetra);
+        font-family: var(--fontPoppins);
+        font-size: 4em;
+    }
+
+    footer a,
+    address {
+        padding-top: 15px;
+        text-decoration: none;
+        font-size: 1.2em;
+        color: white;
+        font-family: var(--fontPoppins);
+    }
+}

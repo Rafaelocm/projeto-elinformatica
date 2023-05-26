@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" media="(max-width: 1090px)" href="assets/css/style-media-laptop.css">
+    <link rel="stylesheet" media="(max-width: 881px)" href="assets/css/style-media-tablet.css">
+    <link rel="stylesheet" media="(max-width: 556px)" href="assets/css/style-media-mobile.css">
+    <title>E&L Informática</title>
+</head>
+
+<body>
+    <header id="cabecalho">
+        <h1>E&L Informática</h1>
+        <nav class="navbar">
+            <div class="container-fluid">
+                <ul class="navbar-Ul">
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#revelacaoFoto">Revelações de foto</a></li>
+                    <li><a href="#impressoes">Impressões</a></li>
+                    <li><a href="#produtosEletronicos">Produtos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#sobre">Sobre</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#revelacaoFoto">Revelações de foto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#impressoes">Impressões</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#produtosEletronicos">Produtos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contato">Contato</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <section id="sobre">
+            <article>
+                <p>A <strong>E&L Informática</strong> é uma loja que está sempre em busca da melhor maneira de oferecer
+                    os serviços de lan
+                    house, produtos eletrônicos e artigos de papelaria.</p>
+            </article>
+        </section>
+        <section id="revelacaoFoto">
+            <article class="d-flex">
+                <div class="paragrafo">
+                    <h2>Revelações de foto com a excelente qualidade</h2>
+                    <p>Somos umas das únicas lan-house que possuímos a máquina KODAK para revelações de foto com ótimas
+                        qualidades e duração longa das suas fotos, além de excelentes preços.</p>
+                </div>
+                <div>
+                    <picture>
+                        <source media="(max-width: 720px)" srcset="assets/image/fotos-mobile.png">
+                        <img src="assets/image/fotos-Desktop.png" alt="Camêra com várias fotos em cima da mesa">
+                    </picture>
+                </div>
+            </article>
+        </section>
+        <section id="impressoes">
+            <article class="d-flex">
+                <div>
+                    <picture>
+                        <source media="(max-width: 720px)" srcset="assets/image/impressoes-mobile.png">
+                        <img src="assets/image/impressoes-Desktop.png" alt="Camêra com várias fotos em cima da mesa">
+                    </picture>
+                </div>
+                <div class="paragrafo">
+                    <h2>Impressões práticas e rápidas</h2>
+                    <p>Realize as suas impressões de forma prática e rápida enviando o arquivo que deseja em nosso
+                        wathsApp. </p>
+                </div>
+            </article>
+        </section>
+        <section id="produtosEletronicos">
+            <article class="d-flex">
+                <div class="paragrafo">
+                    <h2>Produtos eletrônicos</h2>
+                    <p>Realize as compras dos produtos que necessita, temos produtos de excelente qualidade e com
+                        os melhores preços.</p>
+                </div>
+                <div>
+                    <picture>
+                        <source media="(max-width: 720px)" srcset="assets/image/eletronicos-mobile.png">
+                        <img src="assets/image/eletronicos-Desktop.png" alt="Camêra com várias fotos em cima da mesa">
+                    </picture>
+                </div>
+            </article>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <div id="contato">
+            <h2>Contato</h2>
+            <a href="tel:+5571986667302" target="_blank" rel=”noopener”>Telefone: (71) 98666-7302</a>
+           <address> <a href="https://goo.gl/maps/rjGPYFGKzNu1ULcP6" target="_blank"  rel=”noopener”>Rua do matadouro, n° 102, Aguas Claras.</a></address>
+        </div>
+    </footer>
+    <div class="back-to-top"target="_blank">
+       <a href="https://api.whatsapp.com/send?phone=557186667302&text=Olá"> <i class="bi bi-whatsapp" style="color: white;"></i></a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
