@@ -193,4 +193,20 @@
         color: white;
         font-family: var(--fontPoppins);
     }
+
+     .back-to-top {
+        background-color: #12B14C;
+        border-radius: 65px;
+        bottom: 14px;
+        box-shadow: 2px 3px 19px -2px rgba(0, 0, 0, .75);
+        color: black;
+        cursor: pointer;
+        height: 40px;
+        position: fixed;
+        font-size: .8em;
+        text-align: center;
+        right: 20px;
+        width: 40px;
+        z-index: 3;
+    }
 }
